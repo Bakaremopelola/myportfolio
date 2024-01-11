@@ -1,0 +1,104 @@
+*{
+   padding: 0;
+   margin: 0;
+ }
+ #myptf{
+    height: 70px;
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 30px;
+     
+     color: white;
+   }
+
+   a{
+      color: white;
+      margin: 10px;
+      padding: 10px;
+      text-decoration: none;
+   }
+   #top{
+      height: 600px;
+      display: flex;
+      justify-content: center;
+      padding-left: 200px;
+      flex-direction: column;
+      color: white;
+      background-color: black;
+   }
+
+   #first{
+      font-size: 40px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+
+   #parag{
+      font-size: 18px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+   }
+   #btn{
+      height: 40px;
+      width: 150px;
+      background-color: brown;
+   }
+
+#parent{
+   height: 600px;
+   background-color: black;
+   color: white;
+   display: flex;
+   flex-direction: column;
+}
+#ss{
+   padding-top: 30px;
+   padding-bottom: 20px;
+
+}
+#serv{
+   font-size: large;
+   color: white;
+   text-transform: capitalize;
+}
+#skill{
+   font-size: 50px;
+   color: brown;
+}
+#twin{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr ;
+}
+#a1, #a2, #a3, #a4, #a5, #a6{
+   height: 200px; 
+   width: 300px;
+   margin: 20px;
+   box-shadow: 0 4px 8px 0 rgba(250, 248, 248, 0.2), 0 6px 20px 0 rgba(247, 243, 243, 0.19);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 15px;
+}
+#header{
+   font-size: 30px;
+   padding-bottom: 10px;
+}
+#child{
+   background-color: black;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#connect{
+   color: brown;
+   text-transform: capitalize;
+   margin-bottom: 10px;
+}
+#flex{
+   margin-bottom: 10px; 
+   height: 30px;
+   width: 200px;
+}
